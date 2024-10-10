@@ -1,0 +1,234 @@
+@import url(./typography.css);
+
+*{
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+    text-decoration: none;
+}
+
+a{
+    color: inherit;
+}
+
+.p{
+    padding: 0 405px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+/* header */
+
+.header{
+    background-image: url(/img/Bg-sec-one.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    z-index: -1;
+    height: 1102px;
+}
+
+.nav{
+    padding: 18px 0;
+    background: rgb(6, 19, 33, 0.9);
+    height: 78px;
+}
+
+.title-header{
+    display: flex;
+    align-items: center;
+}
+
+.logo-box{
+    margin-right: 244px;
+}
+
+.location-box{
+    margin-right: 124px;
+}
+
+.title-loc{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.title-phone{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* header-down */
+.menu-box{
+    margin-top: 18px;
+    background: rgb(7, 25, 45, 0.9);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item{
+    padding: 14px 50px;
+}
+
+.hr-menu{
+    width: 1px;
+    height: 55px;
+    border: 0px;
+    background: rgb(105, 119, 138);
+}
+
+/* one */
+.sec-one{
+    position: relative;
+    top: 1000px;
+    background-image: url(/img/bg-2.png);
+    overflow-x:hidden;
+    height: 1114px;
+}
+
+.cards-sec-one{
+    display: flex;
+    margin-top: 362px;
+    gap: 30px;
+}
+
+.card-sec-o, .card-sec-t, .card-sec-h{
+    background-image: url(/img/Card-1.png);
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-size: cover;
+    height: 240px;
+    border-radius: 6px;
+    
+    padding: 43px 65px 0 65px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cards-sec-two{
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.card-sec-t, .card-sec-h{
+    height: 280px;
+    background-image: url(/img/Card-2.png);
+}
+
+.card-sec-h{
+    background-image: url(/img/Card-3.png);
+}
+
+/* two */
+.sec-two{
+    position: relative;
+    top: 989px;
+    background-image: url(/img/bg-3.png);
+    height: 1114px;
+
+}
+
+.main-text-sec-two{
+    padding-top: 99px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-sec-two{
+    margin-top: 10px;
+}
+
+.img-points{
+    margin-top: 19px;
+}
+
+.under-text-sec-two{
+    margin-top: 30px;
+}
+
+.cards-sec-two{
+    margin-top: 37px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.item-card-two{
+    cursor: pointer;
+}
+
+.two-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+
+    margin-left: 42px;
+
+
+}
+
+.card-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 255px;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px rgb(234, 234, 234);
+    background: rgb(255, 255, 255);
+}
+
+.title-card-two{
+    margin-top: 40px;
+}
+
+.price{
+    margin-top: 10px;
+}
+
+ol{
+    margin-top: 30px;
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+}
+
+.link, .-a{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.-a{
+    gap: 6px;
+}
+
+.time-box{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.-vip{
+    background-image: url(/img/Group\ 37.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 255px;
+    height: 316px;
+}
